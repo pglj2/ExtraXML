@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!--Início do DTD-->
+
+<!DOCTYPE FUNCIONARIOS [
+  <!ELEMENT FUNCIONARIO (FUNCIONARIO_NOME, CARGO, SEXO)>
+  <!ELEMENT FUNCIONARIO_NOME (#PCDATA)>
+  <!ELEMENT CARGO (#PCDATA)>
+  <!ELEMENT SEXO (#PCDATA)>
+]>
+
+<!--Fim do DTD-->
+
+<FUNCIONARIOS>
+  <inicio>
+    Funcionários
+  </inicio>
+
+  <headers>
+    <header>Nome do Funcionário</header>
+    <header>Cargo do Funcionário</header>
+    <header>Sexo do Funcionário</header>
+  </headers>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Diogo Giovanni</FUNCIONARIO_NOME>
+  <CARGO>gerente</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Rodrigo Paulo</FUNCIONARIO_NOME>
+  <CARGO>gerente</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Guilherme Eduardo</FUNCIONARIO_NOME>
+  <CARGO>gerente</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Pedro Henrique</FUNCIONARIO_NOME>
+  <CARGO>gerente</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Erick Marcelo</FUNCIONARIO_NOME>
+  <CARGO>veterinario</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Kevin Raul</FUNCIONARIO_NOME>
+  <CARGO>veterinario</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Lucca Isaac</FUNCIONARIO_NOME>
+  <CARGO>veterinario</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>André Kevin</FUNCIONARIO_NOME>
+  <CARGO>veterinario</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Pedro Renan</FUNCIONARIO_NOME>
+  <CARGO>atendente</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+ <FUNCIONARIO>
+  <FUNCIONARIO_NOME>Erick Danilo</FUNCIONARIO_NOME>
+  <CARGO>atendente</CARGO>
+  <SEXO>m</SEXO>
+ </FUNCIONARIO>
+</FUNCIONARIOS>

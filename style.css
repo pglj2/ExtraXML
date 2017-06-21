@@ -1,0 +1,35 @@
+@media screen {
+
+	inicio{
+		display: block;
+		font-size: 30px;
+		margin: auto;
+		color: #fff;
+	}
+
+	FUNCIONARIOS {
+	
+	}
+
+
+	FUNCIONARIO, headers {
+		display: table-row;
+		font-size: large;
+		border: none;
+		vertical-align: top;
+		text-align: center;
+	}
+
+	header, FUNCIONARIO_NOME, CARGO, SEXO{
+		display: table-cell;
+		padding: 15px 3px 15px 3px;
+	}
+
+	header {
+		font-weight: bold;
+		font-size: 25px;
+		background: #FFC107;
+		color: #000;
+	}
+
+}
